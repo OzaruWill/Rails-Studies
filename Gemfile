@@ -11,3 +11,7 @@ end
 gem 'jquery-rails'
 gem 'haml'
 gem 'bootstrap-sass', :git => 'git://github.com/thomas-mcdonald/bootstrap-sass.git', :branch => '2.0'
+
+group :development do
+    gem 'therubyracer'
+end
